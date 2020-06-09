@@ -54,9 +54,9 @@
 		<key>SharedSettings</key>
 		<dict>
 			<key>OTHER_CPLUSPLUSFLAGS</key>
-			<string>-I/usr/local/include</string>
+			<string>-I/usr/local/include -I/opt/local/include</string>
 			<key>OTHER_LDFLAGS</key>
-			<string>-L./ -L/usr/local/lib -framework OpenGL -framework GLUT -lpng</string>
+			<string>-L./ -L/usr/local/lib -L/opt/local/lib -framework OpenGL -framework GLUT -lpng</string>
 			<key>LIBRARY_SEARCH_PATHS</key>
 			<string>$(SRCROOT)/$(PRODUCT_NAME)</string>
 			<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
